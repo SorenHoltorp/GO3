@@ -1,7 +1,9 @@
 
 class Image {
-constructor(hetro)
-
+constructor(path, height, width)
+    this.path
+    this.height
+    this.width
 }
 
 

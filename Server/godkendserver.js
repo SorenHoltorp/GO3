@@ -14,7 +14,7 @@ app.get('/', userController)
 
 
 //henter PAYMENTCONTROLLER fra sti
-let userController = require('./controllers/paymentController')
+let paymentController = require('./controllers/paymentController')
 
 //read endpoint på routen '/'
 app.get('/', paymentController)
