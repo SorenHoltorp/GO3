@@ -1,5 +1,5 @@
 //henter User model
-const user = require('../Models/user');
+const user = require('../Models/Users');
 
 //hardcoder ny user ud fra model-klasse
 let user1 = new user('Soren', 'er', 'sej');
