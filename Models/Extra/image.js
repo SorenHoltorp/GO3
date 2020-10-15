@@ -1,0 +1,7 @@
+
+class Image {
+constructor(hetro)
+
+}
+
+

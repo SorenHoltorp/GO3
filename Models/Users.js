@@ -6,20 +6,4 @@ class user {
     }
 }
 
-class Image {
-constructor(hetro)
-
-}
-
-class Interest {
-constructor(homo)
-
-}
-
-class Match {
-constructor(trans)
-
-}
-
-
 module.exports = user;
