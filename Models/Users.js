@@ -6,19 +6,6 @@ class user {
     }
 }
 
-class PaymentUser extends user {
-    constructor(firstname, lastname, gender, payment) {
-        super(firstname, lastname, gender);
-        this.payment = payment;
-    }
-}
-
-class FreeUser extends user {
-    constructor (firstname, lastname, gender) {
-        super(firstname, lastname, gender);
-    }
-}
-
 class Image {
 constructor(hetro)
 
