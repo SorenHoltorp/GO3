@@ -27,9 +27,6 @@ let freeController = require('./controllers/freeController')
 app.get('/', freeController)
 
 
-
-
-
 //server aktiveres
 app.listen(PORT, () => {
   console.log(`Server-applikation lytter på http://localhost:${port}`)
