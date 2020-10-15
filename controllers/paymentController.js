@@ -5,7 +5,7 @@ const PaymentUser = require('../Models/PaymentUsers');
 let PaymentUser1 = new PaymentUser('Marcus', 'er', 'sej');
 
 //controller
-function userController(req, res) {
+function paymentController(req, res) {
     res.end(JSON.stringify(PaymentUser1))
 }
 

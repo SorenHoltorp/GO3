@@ -5,7 +5,7 @@ const FreeUser = require('../Models/FreeUsers');
 let FreeUser1 = new FreeUser('Thomas', 'er', 'sej');
 
 //controller
-function userController(req, res) {
+function freeController(req, res) {
     res.end(JSON.stringify(FreeUser1))
 }
 
